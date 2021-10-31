@@ -130,7 +130,6 @@ const App = () => {
     <Router>
       <div>
         <h1>Software anecdotes</h1>
-
         <Menu />
 
         <Switch>
@@ -144,7 +143,7 @@ const App = () => {
             <AnecdoteList anecdotes={anecdotes} />
           </Route>
         </Switch>
-
+        
         <Footer />
       </div>
     </Router>
