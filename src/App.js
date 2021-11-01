@@ -94,7 +94,7 @@ const Anecdote = ({anecdotes}) => {
     <div>
       <h2>{anecdote.content}</h2>
       <p>has {anecdote.votes} votes</p>
-      <p>for more information see</p>
+      <p>for more information see <a href={anecdote.info}>{anecdote.info}</a></p>
     </div>
   )
 }
